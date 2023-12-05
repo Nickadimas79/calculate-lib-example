@@ -16,10 +16,6 @@ type Rectangle struct {
 	Height float32 `json:"height"`
 }
 
-type Circle struct {
-	Radius float32 `json:"radius"`
-}
-
 func GetRectangleArea(c *gin.Context) {
 	re := &Rectangle{}
 
